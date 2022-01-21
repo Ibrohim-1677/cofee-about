@@ -531,6 +531,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 160px;
+  margin-bottom: 200px;
 }
 
 .main__our-list {
