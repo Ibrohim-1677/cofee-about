@@ -1,0 +1,68 @@
+.main__quality{
+    max-width: 1200px;
+    width: 100%;
+}
+.main__our-commit{
+    display: flex;
+    align-items: center;
+    margin-top: 160px;
+}
+.main__our-list{
+    width: 500px;
+    margin-left: 125px;
+}
+.main__our-img{
+    border-radius: 10px;
+}
+.our__item{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+.our__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+@media only screen and ( max-width:1024px ){
+    .main__our-list{
+        margin-left:80px;
+    }
+}
+@media only screen and ( max-width:768px ){
+    .main__our-img{
+        width: 281px;
+        height: 470px;
+        object-fit: cover;
+    }
+}
+@media only screen and ( max-width:425px ){
+    .main__our-commit{
+        display: block;
+    }
+    .main__our-list{
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .main__our-img{
+        width: 100%;
+        margin-top: -50px;
+    }
+}
+@media only screen and ( max-width:324px ){
+    
+    .our__item{
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .our__text{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .lost{
+        padding-top: 100px;
+    }
+}

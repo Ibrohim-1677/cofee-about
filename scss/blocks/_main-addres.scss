@@ -1,0 +1,29 @@
+
+.main__our{
+    color:  #83888F;
+}
+.main__footer--list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.main__footer--title{
+    width: 290px;
+}
+.main__footer--title:nth-child(2){
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.main__text--h3{
+    font-size: 32px;
+    line-height: 36px;
+}
+.main__address{
+    font-style: normal;
+    color: #83888F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}

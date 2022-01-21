@@ -1,0 +1,34 @@
+.footer{
+    color: #fff;
+    margin-top: 100px;
+    background-color: #2C343E;
+    padding: 45px;
+}
+.footer__list{
+    display: flex;
+}
+.footer__ol{
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.footer__2{
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    margin-left: 250px;
+}
+.footer__title{
+    color: #83888F
+    ;
+    text-decoration: none;
+    margin-left: 35px;
+    &:hover{
+        color: #fff;
+    }
+}
+
+.footer__logo{
+    margin-left: 35px;
+}
