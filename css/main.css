@@ -782,7 +782,7 @@ body {
   margin-right: 100px;
 }
 
-.main__footer-title:nth-child(2) {
+.main__footer-title:nth-child(3) {
   margin-right: 0;
 }
 
@@ -797,6 +797,22 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main__footer-title {
+    margin-right: 80px;
+  }
+  .main__text-h3 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .main__address {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
